@@ -4,6 +4,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  '@ember/test-waiters': ^3.1.0
+
 importers:
 
   .:
@@ -841,7 +844,7 @@ packages:
       '@ember-data/request': 5.3.10
       '@ember-data/request-utils': 5.3.10
       '@ember-data/store': 5.3.10
-      '@ember/test-waiters': ^3.1.0 || >= 4.0.0
+      '@ember/test-waiters': ^3.1.0
       '@warp-drive/core-types': 0.0.0
       ember-source: 3.28.12 || ^4.0.4 || ^5.0.0 || ^6.0.0
     peerDependenciesMeta:
@@ -2964,7 +2967,7 @@ packages:
     engines: {node: '>= 18.20.4'}
     peerDependencies:
       '@ember/test-helpers': ^3.3.0 || ^4.0.4
-      '@ember/test-waiters': ^3.1.0 || ^4.0.0
+      '@ember/test-waiters': ^3.1.0
       ember-source: 3.28.12 || ^4.0.4 || ^5.0.0 || ^6.0.0
       qunit: ^2.18.0
     peerDependenciesMeta:
@@ -8305,7 +8308,7 @@ snapshots:
 
   '@ember-data/request@5.3.10(@warp-drive/core-types@0.0.0)':
     dependencies:
-      '@ember/test-waiters': 4.0.0
+      '@ember/test-waiters': 3.1.0
       '@embroider/macros': 1.16.10
       '@warp-drive/build-config': 0.0.0
       '@warp-drive/core-types': 0.0.0

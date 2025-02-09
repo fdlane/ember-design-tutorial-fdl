@@ -84,5 +84,8 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "resolutions": {
+    "@ember/test-waiters": "^3.1.0"
   }
 }
