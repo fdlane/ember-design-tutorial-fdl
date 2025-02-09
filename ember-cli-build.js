@@ -7,5 +7,19 @@ module.exports = function (defaults) {
     // Add options here
   });
 
+  app.import('node_modules/@nrg-ui/css/dist/main.css');
+  app.import(
+    'node_modules/@nrg-ui/css/dist/assets/icons/fonts/bootstrap-icons.woff',
+    {
+      destDir: 'assets/fonts',
+    },
+  );
+  app.import(
+    'node_modules/@nrg-ui/css/dist/assets/icons/fonts/bootstrap-icons.woff2',
+    {
+      destDir: 'assets/fonts',
+    },
+  );
+
   return app.toTree();
 };
