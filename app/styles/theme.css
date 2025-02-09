@@ -1,0 +1,485 @@
+/* stylelint-disable */
+/* Generated using @nrg-ui/theme-generator */
+:root,
+[data-bs-theme="light"] {
+  --bs-orange: #f70;
+  --bs-green: #4b8847;
+  --bs-cyan: #057cff;
+  --bs-primary: #00447c;
+  --bs-secondary: #426f9a;
+  --bs-success: #4b8847;
+  --bs-info: #057cff;
+  --bs-primary-rgb: 0, 68, 124;
+  --bs-secondary-rgb: 66, 111, 154;
+  --bs-success-rgb: 75, 136, 71;
+  --bs-info-rgb: 5, 124, 255;
+  --bs-primary-text-emphasis: rgb(0, 27.2, 49.6);
+  --bs-secondary-text-emphasis: rgb(26.4, 44.4, 61.6);
+  --bs-success-text-emphasis: rgb(30, 54.4, 28.4);
+  --bs-info-text-emphasis: rgb(2, 49.6, 102);
+  --bs-primary-bg-subtle: #f3f7ff;
+  --bs-secondary-bg-subtle: rgb(217.2, 226.2, 234.8);
+  --bs-success-bg-subtle: rgb(219, 231.2, 218.2);
+  --bs-info-bg-subtle: rgb(205, 228.8, 255);
+  --bs-primary-border-subtle: rgb(153, 180.2, 202.6);
+  --bs-secondary-border-subtle: rgb(179.4, 197.4, 214.6);
+  --bs-success-border-subtle: rgb(183, 207.4, 181.4);
+  --bs-info-border-subtle: rgb(155, 202.6, 255);
+  --bs-font-sans-serif: montserrat, calibri, sans-serif;
+  --bs-body-color: #00447c;
+  --bs-body-color-rgb: 0, 68, 124;
+  --bs-secondary-color: rgba(0, 68, 124, 0.75);
+  --bs-secondary-color-rgb: 0, 68, 124;
+  --bs-tertiary-color: rgba(0, 68, 124, 0.5);
+  --bs-tertiary-color-rgb: 0, 68, 124;
+  --bs-link-color: #00447c;
+  --bs-link-color-rgb: 0, 68, 124;
+  --bs-link-hover-color: rgb(0, 54.4, 99.2);
+  --bs-link-hover-color-rgb: 0, 54, 99;
+  --bs-highlight-color: #00447c;
+  --bs-focus-ring-color: rgba(0, 68, 124, 0.25);
+  --bs-form-valid-color: #4b8847;
+  --bs-form-valid-border-color: #4b8847;
+}
+
+[data-bs-theme="dark"] {
+  --bs-primary-text-emphasis: rgb(102, 142.8, 176.4);
+  --bs-secondary-text-emphasis: rgb(141.6, 168.6, 194.4);
+  --bs-success-text-emphasis: rgb(147, 183.6, 144.6);
+  --bs-info-text-emphasis: rgb(105, 176.4, 255);
+  --bs-primary-bg-subtle: rgb(0, 13.6, 24.8);
+  --bs-secondary-bg-subtle: rgb(13.2, 22.2, 30.8);
+  --bs-success-bg-subtle: rgb(15, 27.2, 14.2);
+  --bs-info-bg-subtle: rgb(1, 24.8, 51);
+  --bs-primary-border-subtle: rgb(0, 40.8, 74.4);
+  --bs-secondary-border-subtle: rgb(39.6, 66.6, 92.4);
+  --bs-success-border-subtle: rgb(45, 81.6, 42.6);
+  --bs-info-border-subtle: rgb(3, 74.4, 153);
+  --bs-link-color: rgb(102, 142.8, 176.4);
+  --bs-link-hover-color: rgb(132.6, 165.24, 192.12);
+  --bs-link-color-rgb: 102, 143, 176;
+  --bs-link-hover-color-rgb: 133, 165, 192;
+  --bs-form-valid-color: rgb(147, 183.6, 144.6);
+  --bs-form-valid-border-color: rgb(147, 183.6, 144.6);
+}
+
+.table-primary {
+  --bs-table-bg: rgb(204, 217.6, 228.8);
+  --bs-table-border-color: rgb(163.2, 174.08, 183.04);
+  --bs-table-striped-bg: rgb(193.8, 206.72, 217.36);
+  --bs-table-active-bg: rgb(183.6, 195.84, 205.92);
+  --bs-table-hover-bg: rgb(188.7, 201.28, 211.64);
+}
+
+.table-secondary {
+  --bs-table-bg: rgb(217.2, 226.2, 234.8);
+  --bs-table-border-color: rgb(173.76, 180.96, 187.84);
+  --bs-table-striped-bg: rgb(206.34, 214.89, 223.06);
+  --bs-table-active-bg: rgb(195.48, 203.58, 211.32);
+  --bs-table-hover-bg: rgb(200.91, 209.235, 217.19);
+}
+
+.table-success {
+  --bs-table-bg: rgb(219, 231.2, 218.2);
+  --bs-table-border-color: rgb(175.2, 184.96, 174.56);
+  --bs-table-striped-bg: rgb(208.05, 219.64, 207.29);
+  --bs-table-active-bg: rgb(197.1, 208.08, 196.38);
+  --bs-table-hover-bg: rgb(202.575, 213.86, 201.835);
+}
+
+.table-info {
+  --bs-table-bg: rgb(205, 228.8, 255);
+  --bs-table-border-color: rgb(164, 183.04, 204);
+  --bs-table-striped-bg: rgb(194.75, 217.36, 242.25);
+  --bs-table-active-bg: rgb(184.5, 205.92, 229.5);
+  --bs-table-hover-bg: rgb(189.625, 211.64, 235.875);
+}
+
+.form-switch .form-check-input:focus,
+.form-switch .form-check-input.is-warning:focus:not([disabled]) {
+  --bs-form-switch-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgb%28127.5, 161.5, 189.5%29'/%3e%3c/svg%3e");
+}
+
+.was-validated .form-select:valid:not([multiple]):not([size]),
+.was-validated .form-select:valid:not([multiple])[size="1"],
+.form-select.is-valid:not([multiple]):not([size]),
+.form-select.is-valid:not([multiple])[size="1"] {
+  --bs-form-select-bg-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%234b8847' d='M2.3 6.73.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
+}
+
+.was-validated :invalid ~ .invalid-feedback,
+.was-validated :invalid ~ input:not([disabled]) ~ .warning-feedback,
+.was-validated input:not([disabled]) ~ :invalid ~ .warning-feedback,
+.was-validated input:not([disabled]):invalid ~ .warning-feedback,
+.was-validated :invalid ~ textarea:not([disabled]) ~ .warning-feedback,
+.was-validated textarea:not([disabled]) ~ :invalid ~ .warning-feedback,
+.was-validated textarea:not([disabled]):invalid ~ .warning-feedback,
+.was-validated :invalid ~ select:not([disabled]) ~ .warning-feedback,
+.was-validated select:not([disabled]) ~ :invalid ~ .warning-feedback,
+.was-validated select:not([disabled]):invalid ~ .warning-feedback,
+.was-validated :invalid ~ .form-control:not([disabled]) ~ .warning-feedback,
+.was-validated .form-control:not([disabled]) ~ :invalid ~ .warning-feedback,
+.was-validated .form-control:not([disabled]):invalid ~ .warning-feedback,
+.was-validated :invalid ~ .invalid-tooltip,
+.is-invalid ~ .invalid-feedback,
+.form-control.is-warning:focus:not([disabled]) ~ .invalid-feedback,
+.form-check.is-warning:focus:not([disabled]) ~ .invalid-feedback,
+.form-check-input.is-warning:focus:not([disabled]) ~ .invalid-feedback,
+select.form-select.is-warning:not([disabled]) ~ .invalid-feedback,
+.form-control.is-warning:not([disabled]) ~ .invalid-feedback,
+.form-check.is-warning:not([disabled]) ~ .invalid-feedback,
+.form-check-input.is-warning:not([disabled]) ~ .invalid-feedback,
+.is-invalid ~ input:not([disabled]) ~ .warning-feedback,
+.form-check.is-warning:not([disabled])
+  ~ input:not([disabled])
+  ~ .warning-feedback,
+.form-check-input.is-warning:not([disabled])
+  ~ input:not([disabled])
+  ~ .warning-feedback,
+input:not([disabled]) ~ .is-invalid ~ .warning-feedback,
+input:not([disabled])
+  ~ .form-check.is-warning:not([disabled])
+  ~ .warning-feedback,
+input:not([disabled])
+  ~ .form-check-input.is-warning:not([disabled])
+  ~ .warning-feedback,
+input.is-invalid:not([disabled]) ~ .warning-feedback,
+input.form-check.is-warning:not([disabled]) ~ .warning-feedback,
+input.form-check-input.is-warning:not([disabled]) ~ .warning-feedback,
+.is-invalid ~ textarea:not([disabled]) ~ .warning-feedback,
+.form-check.is-warning:not([disabled])
+  ~ textarea:not([disabled])
+  ~ .warning-feedback,
+.form-check-input.is-warning:not([disabled])
+  ~ textarea:not([disabled])
+  ~ .warning-feedback,
+textarea:not([disabled]) ~ .is-invalid ~ .warning-feedback,
+textarea:not([disabled])
+  ~ .form-check.is-warning:not([disabled])
+  ~ .warning-feedback,
+textarea:not([disabled])
+  ~ .form-check-input.is-warning:not([disabled])
+  ~ .warning-feedback,
+textarea.is-invalid:not([disabled]) ~ .warning-feedback,
+textarea.form-check.is-warning:not([disabled]) ~ .warning-feedback,
+textarea.form-check-input.is-warning:not([disabled]) ~ .warning-feedback,
+.is-invalid ~ select:not([disabled]) ~ .warning-feedback,
+.form-check.is-warning:not([disabled])
+  ~ select:not([disabled])
+  ~ .warning-feedback,
+.form-check-input.is-warning:not([disabled])
+  ~ select:not([disabled])
+  ~ .warning-feedback,
+select:not([disabled]) ~ .is-invalid ~ .warning-feedback,
+select:not([disabled])
+  ~ .form-check.is-warning:not([disabled])
+  ~ .warning-feedback,
+select:not([disabled])
+  ~ .form-check-input.is-warning:not([disabled])
+  ~ .warning-feedback,
+select.is-invalid:not([disabled]) ~ .warning-feedback,
+select.form-select.is-warning:not([disabled]) ~ .warning-feedback,
+select.form-check.is-warning:not([disabled]) ~ .warning-feedback,
+select.form-check-input.is-warning:not([disabled]) ~ .warning-feedback,
+.is-invalid ~ .form-control:not([disabled]) ~ .warning-feedback,
+.form-check.is-warning:not([disabled])
+  ~ .form-control:not([disabled])
+  ~ .warning-feedback,
+.form-check-input.is-warning:not([disabled])
+  ~ .form-control:not([disabled])
+  ~ .warning-feedback,
+.form-control:not([disabled]) ~ .is-invalid ~ .warning-feedback,
+.form-control:not([disabled])
+  ~ .form-check.is-warning:not([disabled])
+  ~ .warning-feedback,
+.form-control:not([disabled])
+  ~ .form-check-input.is-warning:not([disabled])
+  ~ .warning-feedback,
+.form-control.is-invalid:not([disabled]) ~ .warning-feedback,
+.form-control.is-warning:not([disabled]):focus ~ .warning-feedback,
+.form-control.is-warning:not([disabled]) ~ .warning-feedback,
+.is-invalid ~ .invalid-tooltip,
+.form-control.is-warning:focus:not([disabled]) ~ .invalid-tooltip,
+.form-check.is-warning:focus:not([disabled]) ~ .invalid-tooltip,
+.form-check-input.is-warning:focus:not([disabled]) ~ .invalid-tooltip,
+select.form-select.is-warning:not([disabled]) ~ .invalid-tooltip,
+.form-control.is-warning:not([disabled]) ~ .invalid-tooltip,
+.form-check.is-warning:not([disabled]) ~ .invalid-tooltip,
+.form-check-input.is-warning:not([disabled]) ~ .invalid-tooltip {
+  display: block;
+}
+
+.form-check-inline .form-check-input ~ .invalid-feedback,
+.form-check-inline
+  .form-check-input
+  ~ input:not([disabled])
+  ~ .warning-feedback,
+.form-check-inline
+  input:not([disabled])
+  ~ .form-check-input
+  ~ .warning-feedback,
+.form-check-inline input.form-check-input:not([disabled]) ~ .warning-feedback,
+.form-check-inline
+  .form-check-input
+  ~ textarea:not([disabled])
+  ~ .warning-feedback,
+.form-check-inline
+  textarea:not([disabled])
+  ~ .form-check-input
+  ~ .warning-feedback,
+.form-check-inline
+  textarea.form-check-input:not([disabled])
+  ~ .warning-feedback,
+.form-check-inline
+  .form-check-input
+  ~ select:not([disabled])
+  ~ .warning-feedback,
+.form-check-inline
+  select:not([disabled])
+  ~ .form-check-input
+  ~ .warning-feedback,
+.form-check-inline select.form-check-input:not([disabled]) ~ .warning-feedback,
+.form-check-inline
+  .form-check-input
+  ~ .form-control:not([disabled])
+  ~ .warning-feedback,
+.form-check-inline
+  .form-control:not([disabled])
+  ~ .form-check-input
+  ~ .warning-feedback,
+.form-check-inline
+  .form-control.form-check-input:not([disabled])
+  ~ .warning-feedback {
+  margin-left: 0.5em;
+}
+
+.btn-primary {
+  --bs-btn-bg: #00447c;
+  --bs-btn-border-color: #00447c;
+  --bs-btn-hover-bg: rgb(0, 57.8, 105.4);
+  --bs-btn-hover-border-color: rgb(0, 54.4, 99.2);
+  --bs-btn-focus-shadow-rgb: 38, 96, 144;
+  --bs-btn-active-bg: rgb(0, 54.4, 99.2);
+  --bs-btn-active-border-color: #00335d;
+  --bs-btn-disabled-bg: #00447c;
+  --bs-btn-disabled-border-color: #00447c;
+}
+
+.btn-secondary {
+  --bs-btn-bg: #426f9a;
+  --bs-btn-border-color: #426f9a;
+  --bs-btn-hover-bg: rgb(56.1, 94.35, 130.9);
+  --bs-btn-hover-border-color: rgb(52.8, 88.8, 123.2);
+  --bs-btn-focus-shadow-rgb: 94, 133, 169;
+  --bs-btn-active-bg: rgb(52.8, 88.8, 123.2);
+  --bs-btn-active-border-color: rgb(49.5, 83.25, 115.5);
+  --bs-btn-disabled-bg: #426f9a;
+  --bs-btn-disabled-border-color: #426f9a;
+}
+
+.btn-success {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #4b8847;
+  --bs-btn-border-color: #4b8847;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: rgb(102, 153.85, 98.6);
+  --bs-btn-hover-border-color: rgb(93, 147.9, 89.4);
+  --bs-btn-focus-shadow-rgb: 64, 116, 60;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: rgb(111, 159.8, 107.8);
+  --bs-btn-active-border-color: rgb(93, 147.9, 89.4);
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #4b8847;
+  --bs-btn-disabled-border-color: #4b8847;
+}
+
+.btn-info {
+  --bs-btn-bg: #057cff;
+  --bs-btn-border-color: #057cff;
+  --bs-btn-hover-bg: rgb(42.5, 143.65, 255);
+  --bs-btn-hover-border-color: rgb(30, 137.1, 255);
+  --bs-btn-focus-shadow-rgb: 4, 105, 217;
+  --bs-btn-active-bg: rgb(55, 150.2, 255);
+  --bs-btn-active-border-color: rgb(30, 137.1, 255);
+  --bs-btn-disabled-bg: #057cff;
+  --bs-btn-disabled-border-color: #057cff;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #00447c;
+  --bs-btn-border-color: #00447c;
+  --bs-btn-hover-bg: #00447c;
+  --bs-btn-hover-border-color: #00447c;
+  --bs-btn-focus-shadow-rgb: 0, 68, 124;
+  --bs-btn-active-bg: #00447c;
+  --bs-btn-active-border-color: #00447c;
+  --bs-btn-disabled-color: #00447c;
+  --bs-btn-disabled-border-color: #00447c;
+}
+
+.btn-outline-secondary {
+  --bs-btn-color: #426f9a;
+  --bs-btn-border-color: #426f9a;
+  --bs-btn-hover-bg: #426f9a;
+  --bs-btn-hover-border-color: #426f9a;
+  --bs-btn-focus-shadow-rgb: 66, 111, 154;
+  --bs-btn-active-bg: #426f9a;
+  --bs-btn-active-border-color: #426f9a;
+  --bs-btn-disabled-color: #426f9a;
+  --bs-btn-disabled-border-color: #426f9a;
+}
+
+.btn-outline-success {
+  --bs-btn-color: #4b8847;
+  --bs-btn-border-color: #4b8847;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #4b8847;
+  --bs-btn-hover-border-color: #4b8847;
+  --bs-btn-focus-shadow-rgb: 75, 136, 71;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #4b8847;
+  --bs-btn-active-border-color: #4b8847;
+  --bs-btn-disabled-color: #4b8847;
+  --bs-btn-disabled-border-color: #4b8847;
+}
+
+.btn-outline-info {
+  --bs-btn-color: #057cff;
+  --bs-btn-border-color: #057cff;
+  --bs-btn-hover-bg: #057cff;
+  --bs-btn-hover-border-color: #057cff;
+  --bs-btn-focus-shadow-rgb: 5, 124, 255;
+  --bs-btn-active-bg: #057cff;
+  --bs-btn-active-border-color: #057cff;
+  --bs-btn-disabled-color: #057cff;
+  --bs-btn-disabled-border-color: #057cff;
+}
+
+.btn-link {
+  --bs-btn-focus-shadow-rgb: 38, 96, 144;
+}
+
+.nav-pills {
+  --bs-nav-pills-link-active-bg: #00447c;
+}
+
+.navbar {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 68, 124, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.accordion {
+  --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%2300447c' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M2 5L8 11L14 5'/%3e%3c/svg%3e");
+  --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='rgb%280, 27.2, 49.6%29' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M2 5L8 11L14 5'/%3e%3c/svg%3e");
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(0, 68, 124, 0.25);
+}
+
+[data-bs-theme="dark"] .accordion-button::after {
+  --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='rgb%28102, 142.8, 176.4%29'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='rgb%28102, 142.8, 176.4%29'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.pagination {
+  --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(0, 68, 124, 0.25);
+  --bs-pagination-active-bg: #00447c;
+  --bs-pagination-active-border-color: #00447c;
+}
+
+.progress,
+.progress-stacked {
+  --bs-progress-bar-bg: #00447c;
+}
+
+.list-group {
+  --bs-list-group-active-bg: #00447c;
+  --bs-list-group-active-border-color: #00447c;
+}
+
+.btn-close {
+  --bs-btn-close-focus-shadow: 0 0 0 0.25rem rgba(0, 68, 124, 0.25);
+}
+
+.btn-orange {
+  --bs-btn-bg: #f70;
+  --bs-btn-border-color: #f70;
+  --bs-btn-hover-bg: rgb(255, 139.4, 38.25);
+  --bs-btn-hover-border-color: rgb(255, 132.6, 25.5);
+  --bs-btn-focus-shadow-rgb: 217, 101, 0;
+  --bs-btn-active-bg: rgb(255, 146.2, 51);
+  --bs-btn-active-border-color: rgb(255, 132.6, 25.5);
+  --bs-btn-disabled-bg: #f70;
+  --bs-btn-disabled-border-color: #f70;
+}
+
+.btn-green {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #4b8847;
+  --bs-btn-border-color: #4b8847;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: rgb(102, 153.85, 98.6);
+  --bs-btn-hover-border-color: rgb(93, 147.9, 89.4);
+  --bs-btn-focus-shadow-rgb: 64, 116, 60;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: rgb(111, 159.8, 107.8);
+  --bs-btn-active-border-color: rgb(93, 147.9, 89.4);
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #4b8847;
+  --bs-btn-disabled-border-color: #4b8847;
+}
+
+.btn-cyan {
+  --bs-btn-bg: #057cff;
+  --bs-btn-border-color: #057cff;
+  --bs-btn-hover-bg: rgb(42.5, 143.65, 255);
+  --bs-btn-hover-border-color: rgb(30, 137.1, 255);
+  --bs-btn-focus-shadow-rgb: 4, 105, 217;
+  --bs-btn-active-bg: rgb(55, 150.2, 255);
+  --bs-btn-active-border-color: rgb(30, 137.1, 255);
+  --bs-btn-disabled-bg: #057cff;
+  --bs-btn-disabled-border-color: #057cff;
+}
+
+.btn-outline-orange {
+  --bs-btn-color: #f70;
+  --bs-btn-border-color: #f70;
+  --bs-btn-hover-bg: #f70;
+  --bs-btn-hover-border-color: #f70;
+  --bs-btn-focus-shadow-rgb: 255, 119, 0;
+  --bs-btn-active-bg: #f70;
+  --bs-btn-active-border-color: #f70;
+  --bs-btn-disabled-color: #f70;
+  --bs-btn-disabled-border-color: #f70;
+}
+
+.btn-outline-green {
+  --bs-btn-color: #4b8847;
+  --bs-btn-border-color: #4b8847;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #4b8847;
+  --bs-btn-hover-border-color: #4b8847;
+  --bs-btn-focus-shadow-rgb: 75, 136, 71;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #4b8847;
+  --bs-btn-active-border-color: #4b8847;
+  --bs-btn-disabled-color: #4b8847;
+  --bs-btn-disabled-border-color: #4b8847;
+}
+
+.btn-outline-cyan {
+  --bs-btn-color: #057cff;
+  --bs-btn-border-color: #057cff;
+  --bs-btn-hover-bg: #057cff;
+  --bs-btn-hover-border-color: #057cff;
+  --bs-btn-focus-shadow-rgb: 5, 124, 255;
+  --bs-btn-active-bg: #057cff;
+  --bs-btn-active-border-color: #057cff;
+  --bs-btn-disabled-color: #057cff;
+  --bs-btn-disabled-border-color: #057cff;
+}
+
+.dropdown-menu {
+  --bs-dropdown-link-active-bg: #00447c;
+}
+
+.dropdown-menu-dark {
+  --bs-dropdown-link-active-bg: #00447c;
+}
